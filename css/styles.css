@@ -40,6 +40,16 @@ body {
 
 }
 
+.header-nav {
+  display: flex;
+}
+
+.contacts-list {
+  display: flex;
+}
+
+.page-header {}
+
 .nav-links:hover,
 .nav-links:focus,
 .contacts-link:hover,

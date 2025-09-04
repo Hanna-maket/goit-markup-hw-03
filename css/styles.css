@@ -22,6 +22,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -43,11 +44,16 @@ body {
 .header-container {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
+
+
 
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .contacts-list {
@@ -73,9 +79,28 @@ body {
   color: #2e2f42;
 }
 
+.hero {
+  display: flex;
+  gap: 40px;
+}
+
 .hero-section {
   background: #2e2f42;
 }
+
+.item {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: margin-right:
+}
+
+
+
 
 .hero-title {
   font-weight: 700;

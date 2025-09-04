@@ -73,10 +73,7 @@ body {
   color: #2e2f42;
 }
 
-.hero {
-  display: flex;
-  gap: 40px;
-}
+.hero {}
 
 .hero-section {
   background: #2e2f42;
@@ -90,7 +87,13 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: margin-right:
+  margin-left: margin-right;
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hero-title {

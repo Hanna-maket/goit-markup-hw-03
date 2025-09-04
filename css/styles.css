@@ -194,6 +194,11 @@ body {
   max-width: 264px;
 }
 
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .section-team {
   background-color: #f4f4fd;
 }

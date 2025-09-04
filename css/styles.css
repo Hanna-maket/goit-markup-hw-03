@@ -189,7 +189,7 @@ body {
 
 .footer-logo-part {
   color: #f4f4fd;
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -204,7 +204,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  min-width: 24px;
 }
 
 .section-team {
@@ -239,8 +239,6 @@ body {
 }
 
 /* Advantages */
-.advantages {}
-
 .advantages-item-title {
   font-weight: 500;
   font-size: 20px;

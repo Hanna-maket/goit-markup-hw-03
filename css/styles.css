@@ -40,15 +40,20 @@ body {
 
 }
 
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
 .header-nav {
   display: flex;
 }
 
 .contacts-list {
   display: flex;
+  gap: 24px;
 }
-
-.page-header {}
 
 .nav-links:hover,
 .nav-links:focus,
@@ -90,6 +95,9 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -104,6 +112,17 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: 120px;
+
+
 }
 
 .footer-logo-part {

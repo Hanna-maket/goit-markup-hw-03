@@ -14,6 +14,10 @@ body {
   color: #2e2f42;
 }
 
+.img {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -82,6 +86,8 @@ body {
 
 .hero-section {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .item {
@@ -105,8 +111,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
-  padding-bottom: 188px;
   max-width: 496px;
 }
 
@@ -149,10 +153,23 @@ body {
 .advantages-list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .advantages-item {
-  width: ((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -232,7 +249,7 @@ body {
   color: #2e2f42;
 }
 
-.card-item-text {
+.card-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -251,7 +268,7 @@ p {
 
 .card-team {
   background-color: #F4F4FD;
-  width: calc((100% - 72px) / 4);
+  width: calc (100% -72px / 4);
   border-radius: 0px 0px 4px 4px;
 }
 

@@ -66,7 +66,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  gap: 24px;
+  gap: 24px 0;
 }
 
 .header-nav {

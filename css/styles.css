@@ -229,6 +229,7 @@ img {
 
 .footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -385,4 +386,6 @@ p {
   row-gap: 48px;
 }
 
-.card-box {}
+.card-box {
+  padding: 32px 0;
+}

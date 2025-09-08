@@ -21,6 +21,8 @@ body {
 .ul,
 .ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .a {
@@ -78,7 +80,7 @@ img {
 
 .contacts-list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 
 .nav-links:hover,
@@ -246,7 +248,6 @@ img {
   display: inline-block;
 }
 
-
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -271,7 +272,7 @@ img {
 
 .portfolio-item {
   background-color: #fff;
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .container {
@@ -295,7 +296,11 @@ img {
 .card-item {
   background-color: #FFF;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.card-item>.container {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -381,12 +386,15 @@ p {
 .card-list {
   display: flex;
   gap: 24px;
-
+  flex-wrap: wrap;
 }
 
 .portfolio-list {
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
   display: flex;
+}
+
+.portfolio-item>.container {
+  padding: 32px 16px;
 }

@@ -44,11 +44,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
 }
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header {
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -75,6 +78,12 @@ body {
   gap: 40px;
 }
 
+.nav-links,
+.contacts-link {
+  padding: 24px 0;
+  /* верх 24px, низ 24px, ліво і право 0 */
+}
+
 .nav-links {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -89,7 +98,7 @@ body {
   gap: 40px;
 }
 
-.img {
+.card-img {
   display: block;
 }
 

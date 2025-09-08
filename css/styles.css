@@ -259,10 +259,9 @@ img {
 }
 
 .portfolio-item .container {
-  padding-top: 32px;
-  padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .title-portfolio {
@@ -384,8 +383,4 @@ p {
   gap: 24px;
   display: flex;
   row-gap: 48px;
-}
-
-.portfolio-item .container {
-  padding: 32px 16px;
 }

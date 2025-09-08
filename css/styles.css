@@ -72,7 +72,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .header-nav {
@@ -80,13 +79,8 @@ img {
   align-items: center;
 }
 
-.nav-list {
-  gap: 40px;
-}
-
-.contacts-list {
-  display: flex;
-  gap: 40px;
+.nav-item {
+  padding: 24px 0;
 }
 
 .nav-links:hover,
@@ -98,12 +92,7 @@ img {
   color: #404bbf;
 }
 
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-links,
+.nav-list .nav-links,
 .contacts-link {
   padding: 24px 0;
   display: flex;

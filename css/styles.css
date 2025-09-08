@@ -81,7 +81,11 @@ body {
 .nav-links,
 .contacts-link {
   padding: 24px 0;
-  /* верх 24px, низ 24px, ліво і право 0 */
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links {

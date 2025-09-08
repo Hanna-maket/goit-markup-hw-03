@@ -4,18 +4,25 @@ body {
   background-color: #fff;
 }
 
-.page-header .container {
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
-.nav-links,
-.contacts-link {
+.nav-link {
   padding: 24px 0;
 }
 
 .contacts-list {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 ul,
@@ -62,6 +69,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 
 .page-header {

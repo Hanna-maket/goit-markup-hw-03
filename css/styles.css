@@ -270,6 +270,7 @@ img {
 
 .portfolio-item {
   background-color: #fff;
+  width: calc((100% - 48px) / 3);
 }
 
 .container {
@@ -277,7 +278,6 @@ img {
   padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .title-portfolio {
@@ -294,13 +294,6 @@ img {
 .card-item {
   background-color: #FFF;
   border-radius: 0px 0px 4px 4px;
-}
-
-.portfolio-item {
-  width: calc((100% - 48px) / 3);
-}
-
-.card-item {
   width: calc((100% - 72px) / 4);
 }
 

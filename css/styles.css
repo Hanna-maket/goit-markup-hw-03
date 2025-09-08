@@ -152,7 +152,9 @@ img {
   display: flex;
   margin: 0 auto;
   display: flex;
-  padding: 32px 0;
+  padding: 32px 16px;
+
+
 }
 
 .hero-title {

@@ -72,6 +72,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .header-nav {
@@ -89,7 +90,7 @@ img {
 }
 
 .nav-list .nav-links,
-.contacts-link {
+.contacts-list {
   padding: 24px 0;
   display: flex;
   gap: 40px;

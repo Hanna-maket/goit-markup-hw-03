@@ -227,7 +227,7 @@ img {
   padding: 100px 0;
 }
 
-.footer-logo .container {
+.footer-logo {
   display: inline-block;
 }
 
@@ -384,3 +384,5 @@ p {
   display: flex;
   row-gap: 48px;
 }
+
+.card-box {}

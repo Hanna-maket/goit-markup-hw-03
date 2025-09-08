@@ -369,7 +369,3 @@ p {
   row-gap: 48px;
   display: flex;
 }
-
-.list-item {
-  width: calc((100% - 3 * 24px) / 4);
-}

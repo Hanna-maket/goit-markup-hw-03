@@ -68,6 +68,11 @@ body {
   color: #404bbf;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-links {
   font-family: "Roboto", sans-serif;
   font-weight: 500;

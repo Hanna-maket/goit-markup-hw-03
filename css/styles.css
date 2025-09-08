@@ -6,19 +6,16 @@ body {
 
 .page-header .container {
   padding: 0 15px;
-  /* горизонтальні внутрішні відступи */
 }
 
 .nav-links,
 .contacts-link {
   padding: 24px 0;
-  /* вертикальні відступи всередині посилань */
 }
 
 .contacts-list {
   display: flex;
   gap: 40px;
-  /* відстань між контактами */
 }
 
 .ul,

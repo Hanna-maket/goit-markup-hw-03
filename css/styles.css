@@ -176,8 +176,6 @@ body {
 
 .advantages-list {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   flex-wrap: wrap;
 }
 
@@ -199,11 +197,16 @@ body {
   padding-bottom: 120px;
   margin-right: 40px;
   margin-right: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .footer-logo-part {
   color: #f4f4fd;
-  display: block;
+}
+
+.footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -249,7 +252,7 @@ body {
   color: #2e2f42;
   background-color: #f4f4fd;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 /* Advantages */
@@ -280,6 +283,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .card-item {

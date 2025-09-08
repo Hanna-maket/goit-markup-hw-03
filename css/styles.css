@@ -309,9 +309,10 @@ img {
 }
 
 .portfolio-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 16px;
 }
 
 .advantages-item-text {

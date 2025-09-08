@@ -31,8 +31,10 @@ body {
   color: #2e2f42;
 }
 
-.img {
+img {
   display: block;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .logo {

@@ -235,8 +235,12 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-logo {
   display: inline-block;
 }
+
 
 .footer-text {
   font-weight: 400;

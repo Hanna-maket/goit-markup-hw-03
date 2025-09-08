@@ -363,7 +363,6 @@ p {
 
 .card-team {
   background-color: #F4F4FD;
-  flex-basis: calc((100% - 72) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 

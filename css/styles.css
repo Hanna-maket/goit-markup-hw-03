@@ -88,8 +88,8 @@ img {
   align-items: center;
 }
 
-.nav-links:hover,
-.nav-links:focus,
+.nav-link:hover,
+.nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus,
 .button:focus,
@@ -97,9 +97,7 @@ img {
   color: #404bbf;
 }
 
-.nav-list .nav-links,
-.contacts-list {
-  padding: 24px 0;
+.nav-list {
   display: flex;
   gap: 40px;
   list-style: none;
@@ -107,7 +105,8 @@ img {
   margin: 0;
 }
 
-.nav-links {
+.nav-link {
+  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;

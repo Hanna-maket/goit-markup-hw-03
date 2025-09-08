@@ -72,6 +72,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .contacts-list {

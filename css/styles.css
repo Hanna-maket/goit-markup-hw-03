@@ -232,6 +232,7 @@ body {
 
 .footer-logo-part {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .page-footer {
@@ -289,6 +290,10 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.portfolio-list .portfolio-item:first-child {
+  width: calc((100% - 48px) / 3);
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -309,7 +314,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantages-item-text {

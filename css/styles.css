@@ -5,16 +5,11 @@ body {
 }
 
 .container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.nav-link {
-  padding: 24px 0;
 }
 
 .contacts-list {
@@ -129,13 +124,6 @@ img {
 
 .item {
   display: block;
-}
-
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-  display: flex;
 }
 
 .hero-title {
